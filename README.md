@@ -20,10 +20,15 @@ Delaney dataset has a total of 1128 compounds.
 Then ProTox-II Server was used for toxicity prediction (https://tox-new.charite.de/protox_II/index.php?site=compound_input) which classifies the toxicity into different classes from fatal to non-toxic.
 
 Class I: fatal if swallowed (LD50 ≤ 5)
+
 Class II: fatal if swallowed (5 < LD50 ≤ 50)
+
 Class III: toxic if swallowed (50 < LD50 ≤ 300)
+
 Class IV: harmful if swallowed (300 < LD50 ≤ 2000)
+
 Class V: may be harmful if swallowed (2000 < LD50 ≤ 5000)
+
 Class VI: non-toxic (LD50 > 5000)
 
 # Conclusion:
